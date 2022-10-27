@@ -50,8 +50,8 @@ nav > ul > li:hover{
     margin-top: 15px;
 }
 .logo > img{
-    height: 50px;
-    width: 250px;
+    height: 100px;
+    width: 130px;
     border-radius: 10px;
 }
 
@@ -135,4 +135,15 @@ nav > ul > li:hover{
     column-count: 3; 
     column-rule: 3px solid rgb(12, 114, 51); 
     column-gap: 100px;
+}
+
+.word {
+    margin: auto;
+    color: white;
+    font: 700 normal 2.5em 'tahoma';
+    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+  }
+
+  .part2{
+    margin-top: 20px;
 }
