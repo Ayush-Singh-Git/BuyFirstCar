@@ -8,14 +8,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <nav>
         <div class="logo">
             <img src="./Images/Jaguar-logo.jpg" alt="BUYACAR">
         </div>
         <ul>
-            <li>Home</li>
+            <li onclick = "func()">Home</li>
             <li>Contact</li>
             <li>Profile</li>
         </ul>
@@ -124,12 +123,18 @@
           pagination: {
             el: '.swiper-pagination',
           },
-
+          
           navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
           },
         });
+    </script>
+    <script>
+      // var t = document.getElementById("home");/
+      function red(){
+        window.location.href = "/";
+      }
     </script>
 </body>
 </html>
