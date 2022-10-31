@@ -74,7 +74,6 @@ nav > ul > li:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* float: left; */
     height: 46px;
     padding: 0 10px;
 }
@@ -121,7 +120,6 @@ nav > ul > li:hover{
     position: relative;
     background: url('./images/wp2803080-jaguar-cars-wallpaper-desktop.jpg')no-repeat center center/cover;
     z-index: -1;
-    /* border-radius: 50px; */
 }
 .box1{
     height:auto;
@@ -174,7 +172,6 @@ nav > ul > li:hover{
 .footer-box{
     background-color: #a8a8a8ad;
     padding: 35px;
-    /* border: 5px solid black; */
 }
 .footer-box h2{
     margin-top: 60px;
