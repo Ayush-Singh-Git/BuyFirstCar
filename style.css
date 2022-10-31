@@ -209,3 +209,45 @@ nav > ul > li:hover{
   .part2{
     margin-top: 20px;
 }
+
+.container{
+    margin-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height:auto;
+    width:100%;
+    background: grey;
+}
+.cars{
+    border: solid black 4px;
+    background-color: transparent;
+   margin-top: 35px;
+    height: auto;
+    width:23%;
+    background-color: rgb(229 229 229);
+}
+.carimg{
+    display: block;
+    width:100%;
+    height:240px;
+    border-bottom: black solid 4px;
+}
+.cars h2{
+    font-family: "JLR Proxima Nova","Arial Unicode","arial","helvetica",sans-serif;
+    letter-spacing: .351rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cars p{
+    font-family: "JLR Proxima Nova","Arial Unicode","arial","helvetica",sans-serif;
+    padding:7px;
+    color: rgb(99, 95, 95);
+}
+.carvideo{
+    display: block;
+    width:100%;
+    height:240px;
+    border-top: black solid 4px;
+}
